@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="card-box">
+        <i style="--clr:#00ffd9;"></i>
+        <i style="--clr:#ff00c8;"></i>
+        <i style="--clr:#0091ff;"></i>
+        <div class="card">
+            <h1>Login</h1>
+            <div class="login-form">
+                <p>Username:</p>
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="Username" placeholder="Type Your username">
+                </div>
+                <p>Password:</p>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="Password" placeholder="Type Your password">
+                </div>
+                <h6><a href="#">Forgot password?</a></h6>
+            </div>
+            <button class="login-btn" onclick="validateLogin()">LOGIN</button>
+            <div class="alternative">
+                <p>Not a member? <span><a href="#">Sign Up</a></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

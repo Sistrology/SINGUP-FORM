@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+.card-box {
+    position: relative;
+    width: 500px;
+    padding: 40px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);;
+    box-shadow: 0 5px 15px pink;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    color: aquamarine;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.login-form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-group i {
+    color: #999;
+    margin-right: 8px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    padding: 5px;
+}
+
+h6 {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+h6 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+h6 a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px 4px skyblue;
+}
+
+.login-btn:hover {
+    background-color: pink;
+}
+
+.alternative {
+    margin-top: 20px;
+    color: #777;
+}
+
+.alternative span a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.alternative span a:hover {
+    text-decoration: underline;
+}
